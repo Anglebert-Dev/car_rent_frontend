@@ -3,6 +3,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 import { Navbar } from "../../components/navbar";
 import { Hero } from "./hero";
+import { BookCard } from "../../components/bookCard";
 
 const PageContainer = styled.div`
   ${tw`
@@ -20,6 +21,7 @@ export function HomePage() {
     <PageContainer>
       <Navbar />
       <Hero />
+      <BookCard />
     </PageContainer>
   );
 }
